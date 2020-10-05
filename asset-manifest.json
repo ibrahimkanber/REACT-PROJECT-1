@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/ibrahimkanber/React/static/js/main.6f7b83a5.chunk.js",
-    "main.js.map": "/ibrahimkanber/React/static/js/main.6f7b83a5.chunk.js.map",
+    "main.js": "/ibrahimkanber/React/static/js/main.edaffba1.chunk.js",
+    "main.js.map": "/ibrahimkanber/React/static/js/main.edaffba1.chunk.js.map",
     "runtime-main.js": "/ibrahimkanber/React/static/js/runtime-main.16d4715b.js",
     "runtime-main.js.map": "/ibrahimkanber/React/static/js/runtime-main.16d4715b.js.map",
     "static/css/2.dc17f35a.chunk.css": "/ibrahimkanber/React/static/css/2.dc17f35a.chunk.css",
     "static/js/2.f8cf596d.chunk.js": "/ibrahimkanber/React/static/js/2.f8cf596d.chunk.js",
     "static/js/2.f8cf596d.chunk.js.map": "/ibrahimkanber/React/static/js/2.f8cf596d.chunk.js.map",
     "index.html": "/ibrahimkanber/React/index.html",
-    "precache-manifest.c2904c65fc9f4d80ae81338865d5872b.js": "/ibrahimkanber/React/precache-manifest.c2904c65fc9f4d80ae81338865d5872b.js",
+    "precache-manifest.b35b3bbb8bacf602adfc5c80f75bec5f.js": "/ibrahimkanber/React/precache-manifest.b35b3bbb8bacf602adfc5c80f75bec5f.js",
     "service-worker.js": "/ibrahimkanber/React/service-worker.js",
     "static/css/2.dc17f35a.chunk.css.map": "/ibrahimkanber/React/static/css/2.dc17f35a.chunk.css.map",
     "static/js/2.f8cf596d.chunk.js.LICENSE.txt": "/ibrahimkanber/React/static/js/2.f8cf596d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.16d4715b.js",
     "static/css/2.dc17f35a.chunk.css",
     "static/js/2.f8cf596d.chunk.js",
-    "static/js/main.6f7b83a5.chunk.js"
+    "static/js/main.edaffba1.chunk.js"
   ]
 }
