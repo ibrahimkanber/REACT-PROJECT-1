@@ -33,7 +33,7 @@ const Navi = (props) => {
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
             </NavItem>
-            <CartSummary cart={props.cartInfo}/>
+            <CartSummary removeFromCart={props.removeFromCart}  cart={props.cartInfo}/>
           </Nav>
           
         </Collapse>
