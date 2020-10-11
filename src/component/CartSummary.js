@@ -5,10 +5,13 @@ import {
   DropdownMenu,
   DropdownItem,
   Badge,
-  Nav,
   NavItem,
   NavLink,
 } from "reactstrap";
+
+import {Link} from "react-router-dom";
+
+
 export default class CartSummary extends Component {
   renderSummary() {
     return (
@@ -27,7 +30,9 @@ export default class CartSummary extends Component {
           ))}
 
           <DropdownItem divider />
-          <DropdownItem >Reset</DropdownItem>
+          <DropdownItem >
+            <Link to="/REACT-PROJECT-1/Cart">Go to cart</Link>
+          </DropdownItem>
         </DropdownMenu>
       </UncontrolledDropdown>
     );

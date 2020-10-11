@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -34,6 +35,12 @@ const Navi = (props) => {
               <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
             </NavItem>
             <CartSummary removeFromCart={props.removeFromCart}  cart={props.cartInfo}/>
+            <NavItem>
+              <Link to="/REACT-PROJECT-1">HOME</Link>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/REACT-PROJECT-1">home</NavLink>
+            </NavItem>
           </Nav>
           
         </Collapse>
