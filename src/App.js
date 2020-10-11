@@ -7,6 +7,8 @@ import alertify from "alertifyjs";
 import { Route, Switch } from "react-router-dom";
 import Notfound from "./component/Notfound";
 import CartList from "./component/CartList";
+import FormDemo1 from "./component/FormDemo1";
+import FormDemo2 from "./component/FormDemo2";
 
 
 
@@ -99,8 +101,9 @@ export default class App extends Component {
                     />
                   )
                 }} />
-
-                <Route component={Notfound} />
+                <Route path="/REACT-PROJECT-1/userEntry" component={FormDemo1}/>
+                <Route path="/REACT-PROJECT-1/userEntry2" component={FormDemo2}/>
+                <Route component={Notfound}/>
               </Switch>
 
             </Col>

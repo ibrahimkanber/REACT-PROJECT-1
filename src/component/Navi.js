@@ -11,7 +11,7 @@ import {
   Nav,
   NavItem,
   NavLink,
- 
+
 } from 'reactstrap';
 
 import CartSummary from './CartSummary';
@@ -34,15 +34,23 @@ const Navi = (props) => {
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
             </NavItem>
-            <CartSummary removeFromCart={props.removeFromCart}  cart={props.cartInfo}/>
+            <CartSummary removeFromCart={props.removeFromCart} cart={props.cartInfo} />
             <NavItem>
-              <Link to="/REACT-PROJECT-1">HOME</Link>
+              <NavLink><Link to="/REACT-PROJECT-1">HOME</Link> </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/REACT-PROJECT-1">home</NavLink>
+              <NavLink>
+                <Link to="/REACT-PROJECT-1/userEntry">User Enrty</Link>
+              </NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink>
+                <Link to="/REACT-PROJECT-1/userEntry2">User Enrty2</Link>
+              </NavLink>
+            </NavItem>
+
           </Nav>
-          
+
         </Collapse>
       </Navbar>
     </div>
